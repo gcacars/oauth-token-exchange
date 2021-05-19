@@ -1,0 +1,55 @@
+{
+  "name": "oauth-token-exchange",
+  "version": "1.0.0",
+  "description": "RFC8693 implementation extension for `oidc-provider`",
+  "type": "module",
+  "module": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcacars/oauth-token-exchange.git"
+  },
+  "keywords": [
+    "oauth",
+    "token",
+    "exchange",
+    "openid",
+    "provider",
+    "oidc",
+    "oauth2",
+    "saml",
+    "sts",
+    "json",
+    "jwt",
+    "microservices",
+    "oasis",
+    "rfc",
+    "8693",
+    "rfc8693",
+    "act",
+    "may_act",
+    "actor",
+    "resource",
+    "subject_token"
+  ],
+  "author": "Gabriel Anderson <gcacars@gmail.com> (https://github.com/gcacars)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcacars/oauth-token-exchange/issues"
+  },
+  "homepage": "https://github.com/gcacars/oauth-token-exchange#readme",
+  "peerDependencies": {
+    "oidc-provider": "^7.3.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.1",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.2"
+  }
+}
